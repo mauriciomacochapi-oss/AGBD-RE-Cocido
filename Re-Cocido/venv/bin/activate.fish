@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/etec/Documentos/Re-Cocido/venv
+set -gx VIRTUAL_ENV /home/etec/Documentos/AGBD-RE-Cocido/Re-Cocido/venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
