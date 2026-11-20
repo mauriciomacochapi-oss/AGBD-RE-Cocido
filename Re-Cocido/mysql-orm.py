@@ -7,7 +7,9 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, Session
 from sqlalchemy import URL, create_engine, text, String, Integer
 
-
+# source venv/bin/activate 
+# pip install python-dotenv
+# python mysql-orm.py
 # ==========================================
 # 1. CARGAR VARIABLES DE ENTORNO
 # ==========================================
